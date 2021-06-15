@@ -1,8 +1,8 @@
 # Zillow Regression Project
 - The Zillow Data Science Team wants to predict the values of single unit properties that the tax district assesses using the property data from those with a transaction during the "hot months" (in terms of real estate demand) of May-August, 2017.
 
-![alt text](insert github link here for project overview slide)
-
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/zillow_objectives_goals.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/zillow_exec_sum.png)
 # Project Planning
 - Refer to trello kanban board for planning overview: https://trello.com/b/IdNd8GPA/regression-project
 - Utilized agile program management methodology 
@@ -23,7 +23,7 @@
     - **False Negative**: Predict there is no relationship and there is a relationship
 
 # Data Dictionary
-![alt text](insert github link here for data dicktionary)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/zillow_data_dict.png)
 # How to Reproduce
 -  Read this README.md
 - Download the acquire.py, prep.py, explore.py, model.py and final_notebook.ipynb into your working directory
