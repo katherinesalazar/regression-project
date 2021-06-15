@@ -11,5 +11,5 @@
 ![alt text](https://github.com/katherinesalazar/visuals/blob/main/9.png)
 ![alt text](https://github.com/katherinesalazar/visuals/blob/main/10.png)
 ![alt text](https://github.com/katherinesalazar/visuals/blob/main/11.png)
-![alt text](https://github.com/katherinesalazar/visuals/blob/main/Title%20Page.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/1%20Heading%20%2B%202%20Paragraphs.png)
 ![alt text](https://github.com/katherinesalazar/visuals/blob/main/13.png)
