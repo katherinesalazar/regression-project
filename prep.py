@@ -91,7 +91,8 @@ def clean_zillow(df):
     '''
     
     #select only certain features needed for project
-    features = [ 'parcelid',
+    features = ['parcelid',
+                'fips', 
                 'bedroomcnt', 
                 'bathroomcnt', 
                 'calculatedfinishedsquarefeet', 
@@ -105,7 +106,8 @@ def clean_zillow(df):
     df = df.rename(columns={
                             "bedroomcnt": "bedrooms", 
                             "bathroomcnt": "bathrooms", 
-                            "calculatedfinishedsquarefeet":"square_feet", 
+                            "calculatedfinishedsquarefeet":"square_feet",
+                            "fips": "county_code",
                             "taxamount": "taxes",
                             "taxvaluedollarcnt": "tax_value", 
                             })
