@@ -91,7 +91,8 @@ def clean_zillow(df):
     '''
     
     #select only certain features needed for project
-    features = ['bedroomcnt', 
+    features = [ 'parcelid',
+                'bedroomcnt', 
                 'bathroomcnt', 
                 'calculatedfinishedsquarefeet', 
                 'taxvaluedollarcnt', 
