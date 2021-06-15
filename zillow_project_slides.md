@@ -1,0 +1,15 @@
+# Regression Project Slides
+
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/Title%20Page.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/2.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/3.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/4.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/5.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/6.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/7.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/8.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/9.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/10.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/11.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/Title%20Page.png)
+![alt text](https://github.com/katherinesalazar/visuals/blob/main/13.png)
