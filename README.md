@@ -1,4 +1,4 @@
-# Zillow Regression Project
+# Zillow Regression Project Description
 - The Zillow Data Science Team wants to predict the values of single unit properties that the tax district assesses using the property data from those with a transaction during the "hot months" (in terms of real estate demand) of May-August, 2017.
 
 ![alt text](https://github.com/katherinesalazar/visuals/blob/main/zillow_objectives_goals.png)
