@@ -91,43 +91,33 @@ def clean_zillow(df):
     '''
     
     #select only certain features needed for project
-    features = ['parcelid', 
-                'bedroomcnt', 
+    features = ['bedroomcnt', 
                 'bathroomcnt', 
                 'calculatedfinishedsquarefeet', 
-                'fips', 
-                'yearbuilt',
                 'taxvaluedollarcnt', 
                 'taxamount']
 
     df = df[features]   
     
-    #set parcelid as index
-    df = df.set_index("parcelid")
 
     #rename columns
-    df = df.rename(columns={"parcelid": "parcel_id",
+    df = df.rename(columns={
                             "bedroomcnt": "bedrooms", 
                             "bathroomcnt": "bathrooms", 
                             "calculatedfinishedsquarefeet":"square_feet", 
-                            "fips": "county_fips",
                             "taxamount": "taxes",
                             "taxvaluedollarcnt": "tax_value", 
-                            "yearbuilt": "age"})
+                            })
     
-    #convert year built to get the property age
-    df.age = 2017 - df.age
 
     #drop the nulls
-    df = df.dropna(subset=['square_feet', 'age', 'tax_value', 'taxes'])
+    df = df.dropna(subset=['square_feet','tax_value', 'taxes'])
     df = df.fillna(0)
 
 
     #convert dtypes to integers
     df.bedrooms = df.bedrooms.astype('int64')
     df.square_feet = df.square_feet.astype('int64')
-    df.county_fips = df.county_fips.astype('int64')
-    df.age = df.age.astype('int64')
     df.tax_value = df.tax_value.astype('int64')
 
             
